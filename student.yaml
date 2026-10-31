@@ -1,0 +1,25 @@
+- first_name: "Rajesh"
+  lastname: "K"
+  DOB: "01-01-01"
+  address:
+  - type: "permanent"
+    doorno: 18-1
+    streetname: "park bazar"
+    city: "Tiruvuru"
+  skills:
+    os: Linux
+    IDE: VS code
+    CM: ansible
+
+- first_name: "Rajesh"
+  lastname: "K"
+  DOB: "01-01-01"
+  address:
+  - type: "permanent"
+    doorno: 18-1
+    streetname: "park bazar"
+    city: "Tiruvuru"
+  skills:
+    os: Linux
+    IDE: VS code
+    CM: ansible
