@@ -1,0 +1,11 @@
+- name: demo on variables
+  hosts: local
+  connection: local
+  vars:
+    course: DevSecOps
+    Trainer: Rajesh
+    Duration: 10 Hours
+    tasks:
+    - name: print the vars
+      debug:
+        msg: "Hi, I am learning {{ cource}} from trainer {{ Trainer}}, duration is {{ Duration }}"
