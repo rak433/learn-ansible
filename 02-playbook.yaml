@@ -3,4 +3,4 @@
   connection: local
   tasks:
   - name: print hellow world
-    ansible.biultin.debug:
+    ansible.builtin.debug:
