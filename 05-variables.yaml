@@ -6,6 +6,6 @@
     Trainer: Rajesh
     Duration: 10 Hours
   tasks:
-    - name: print the vars
-      debug:
-        msg: "Hi, I am learning {{ cource}} from trainer {{ Trainer}}, duration is {{ Duration }}"
+  - name: print the vars
+    debug:
+      msg: "Hi, I am learning {{ cource}} from trainer {{ Trainer}}, duration is {{ Duration }}"
