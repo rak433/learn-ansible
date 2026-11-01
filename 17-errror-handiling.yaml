@@ -1,0 +1,7 @@
+- name: create username
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: checking roboshop user is exist
+    command: id roboshop # Linux command, when there is no module exist
