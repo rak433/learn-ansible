@@ -5,3 +5,9 @@
   tasks:
   - name: checking roboshop user is exist
     command: id roboshop # Linux command, when there is no module exist
+    register: user_output
+    ignore_errors: true
+
+  - name: print the output
+    debug:
+      msg: "{{ user_output }}"
