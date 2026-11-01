@@ -14,8 +14,8 @@
       trainer: sivakumar
       months: 4
       exect_duration_in_months: 4.5 # float
-    tasks:
-    - name: print the data types
-      debug:
-        msg: |
-          name: "{{ course }} : {{ course | type_debug }}"
+  tasks:
+  - name: print the data types
+    debug:
+      msg: |
+        name: "{{ course }} : {{ course | type_debug }}"
