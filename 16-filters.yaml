@@ -6,6 +6,7 @@
     names:
     - Rajesh
     - Kothuru
+    topic: ANSIBLE
   tasks:
   - name: print the name
     debug:
@@ -19,3 +20,7 @@
   - name: convert list to string
     debug:
       msg: "Full Name: {{ names | join(' ') }}"
+
+  - name: convert upper to lower
+    debug:
+      msg: "Topic: {{ topic | lower }}"
