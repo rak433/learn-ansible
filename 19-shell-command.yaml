@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: test the command module
-    coammnd: cat /etc/passwd | grep ec2-user
+    command: cat /etc/passwd | grep ec2-user
     register: ec2_user_output
 
   - name: print the output
