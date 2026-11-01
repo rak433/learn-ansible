@@ -4,4 +4,4 @@
   tasks:
   - name: print the name
     debug:
-      msg: "{{ Hi, I am | default('Rajesh') }}"
+      msg: "Hi, I am {{ person_name | default('Rajesh') }}"
