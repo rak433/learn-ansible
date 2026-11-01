@@ -13,7 +13,7 @@
     more_details: # dictionary/map
       trainer: sivakumar
       months: 4
-      exect_duration_in_months: 4.5 # float
+    exact_duration_in_months: 4.5 # float
   tasks:
   - name: print the data types
     debug:
@@ -23,4 +23,4 @@
         Live sessions: "{{ is_live_sessions }} : {{ is_live_sessions | type_debug }}"
         topics are: "{{ topics }} : {{ topics | type_debug }}"
         more details: "{{ more_details }} : {{ more_details | type_debug }}"
-        duration: "{{ exect_duration_in_months }} : {{ exect_duration_in_months | type_debug }}"
+        duration: "{{ exact_duration_in_months }} : {{ exact_duration_in_months | type_debug }}"
