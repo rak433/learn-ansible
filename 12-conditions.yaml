@@ -1,6 +1,6 @@
-- name: print the OS is Redhat or not
+- name: print  OS is Redhat or not
   hosts: local
-  connections: local
+  connection: local
   tasks:
   - name: Install nginx in Redhat
     dnf:
