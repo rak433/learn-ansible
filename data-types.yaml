@@ -1,0 +1,21 @@
+- name: print data types
+  hosts: local
+  connection: local
+  vars:
+    course: "Aiops with DevSecOps" # string
+    duration_in_hrs: 150  # number or intiger
+    is_live_sessions: true # boolean
+    topics: # list
+    - Linux
+    - Shell
+    - Ansible
+    - Terraform
+    more_details: # dictionary/map
+      trainer: sivakumar
+      months: 4
+      exect_duration_in_months: 4.5 # float
+    tasks:
+    - name: print the data types
+      debug:
+        msg: |
+          name: "{{ course }} : {{ course | type_debug }}"
